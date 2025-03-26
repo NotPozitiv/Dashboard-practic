@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Адаптивная админ-панель</title>
+    <link rel="stylesheet" href="work.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+</head>
+<body>
+    <div class="artem">
+    <button id="sidebarToggle">☰</button></div>
+    <nav class="container">
+        <!-- левая колонка -->
+        <aside class="left">
+            <div class="top">
+                <div class="logo">
+                    <h2>G</h2>
+                </div>
+                <div class="Logo-text">GOODFOOD</div>
+            </div>
+            <nav class="menu">
+                <a href="#!" class="">
+                    <p class="menu-left">MENU</p></a>
+                    <a href="#!">
+                    <h3 class="menu__link"><span class="material-icons-sharp bar_chart">bar_chart</span>Dashboard</h3>
+                </a>
+                <a href="#!" class="menu__link">
+                    <h3 class="menu-title"><span class="material-icons-sharp bar_chart">shopping_cart</span>Food Order</h3>
+                </a>
+                <a href="#!" class="menu__link active">
+                    <h3 class="menu-title"><span class="material-icons-sharp bar_chart">receipt_long</span>Manage menu</h3>
+                </a>
+                <a href="#!" class="menu__link">
+                    <h3 class="menu-title"><span class="material-icons-sharp bar_chart">rate_review</span>Customer Review</h3>
+                </a>
+                <a href="#!" class="">
+                <p class="menu-left">OTHERS</p>
+            </a>
+                <a href="#!" class="menu__link">
+                    <h3 class="menu-title"><span class="material-icons-sharp bar_chart">settings</span>Settings</h3>
+                </a>
+                <a href="#!" class="menu__link">
+                    <h3 class="menu-title"><span class="material-icons-sharp bar_chart">account_balance_wallet</span>Payment</h3>
+                </a>
+                <a href="#!" class="menu__link">
+                    <h3 class="menu-title"><span class="material-icons-sharp bar_chart">person</span>Accounts</h3>
+                </a>
+                <a href="#!" class="menu__link">
+                    <h3 class="menu-title"><span class="material-icons-sharp help_info">info</span>Help</h3>
+                </a>
+            </nav>
+        </aside>
+    <!-- средняя колонка -->
+    <main class="center">
+        <hr class="thin-line">
+        <p class="Dashboard">Dashboard</p>
+        <div class="results">
+            <p class="base-weight">Revenue</p>
+            <div class="view"><a href="#!" class="result-report">View Report</a></div>
+            <h3>IDR 7.852.000</h3>
+            <p><span class="success">2.1%</span> vs last week</p>
+            <p class="results-sale">Sales from 1-7 Feb, 2025</p>
+            <div class="chart">
+                <p>First courses - 20%</p>
+                <div class="pipe">
+                    <div class="sector1"></div>
+                </div>
+                <p>Burgers - 30%</p>
+                <div class="pipe">
+                    <div class="sector2"></div>
+                </div>
+                <p>Lunch boxes - 40%</p>
+                <div class="pipe">
+                    <div class="sector3"></div>
+                </div>
+                <p>Drinks and snacks - 10%</p>
+                <div class="pipe">
+                    <div class="sector4"></div>
+                </div>
+            </div>
+            <div class="legend">
+            <div><span class="blue"></span>Last 7 days</div>
+        </div>
+            <hr class="thin-line2">
+        </div>
+        
+        <div class="center-container">
+            
+        <div class="Rating">
+        <p class="base-weight">Your Rating</p>
+        <p  class="margin">Lorem ipsum dolor sit amete est totam.</p>
+        <div class="circle-blue">85%</div>
+        <div class="chart-blue">
+            <svg width="283" height="302" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="0" fill="none" stroke="#eee" stroke-width="10"/>
+                <circle class="circle-segment" cx="50" cy="50" r="25" fill="none" stroke="#6f5fff" stroke-width="0.6" stroke-dasharray="100, 60"  
+                transform="rotate(-90 49 49)"/>
+            </svg>
+        </div>
+        <div class="circle-yellow">80%</div>
+        <div class="chart-yellow">
+            <svg width="460" height="650" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="0" fill="none" stroke="#eee" stroke-width="10"/>
+                <circle class="circle-segment" cx="50" cy="50" r="25" fill="none" stroke="#ff9100" stroke-width="0.6" stroke-dasharray="110, 60"  
+                transform="rotate(-90 49 49)"/>
+            </svg>
+        </div>
+        <div class="circle-aqua">92%</div>
+        <div class="chart-aqua">
+            <svg width="345" height="360" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="0" fill="none" stroke="#eee" stroke-width="10"/>
+                <circle class="circle-segment" cx="50" cy="50" r="25" fill="none" stroke="#079ec4" stroke-width="0.6" stroke-dasharray="110, 60"  
+                transform="rotate(-90 49 49)"/>
+            </svg>
+        </div>
+        </div>
+        <div class="center-right">
+            <hr class="vertical-line">
+            <p class="base-weight">Most Ordered Food</p> 
+            <p  class="margin">Lorem, ipsum amet consectetur!</p>
+            <div class="order-food">
+            <span><img src="./img/salad.jpg" alt="Salad" class="food"></span>
+            <div class="grid-food">
+            <p class="food-name">Fresh Salad Bowl</p>
+            <p class="food-price">IDR 45.000</p></div>
+        </div>
+            <hr class="thin-line3">
+            <div class="order-food">
+            <span><img src="./img/ramen.png" alt="Ramen" class="food"></span>
+            <div class="grid-food">
+            <p class="food-name">Chicken Noodles</p>
+            <p class="food-price">IDR 75.000</p>
+        </div>
+    </div>
+            <hr class="thin-line3">
+            <div class="order-food">
+            <span><img src="./img/icefruit.png" alt="Ice-cream" class="food"></span>
+            <div class="grid-food">
+            <p class="food-name">Smoothie Fruits</p>
+            <p class="food-price">IDR 45.000</p>
+        </div>
+    </div>
+            <hr class="thin-line3">
+            <div class="order-food">
+            <span><img src="./img/test.png" alt="chicken" class="food"></span>
+            <div class="grid-food">
+            <p class="food-name">Hot Chicken Wings</p>
+            <p class="food-price">IDR 45.000</p>
+            </div>
+        </div>
+        </div>
+        
+</div>
+    </main>
+        <!-- Правая колонка -->
+        <div class="right">
+            
+            <div class="right-top">
+                <div class="burger-div">
+                <img src="./img/burger.png" alt="Delicious Burger" class="burger-img">
+            </div>
+                <p>Delicious Burger<span class="material-icons-sharp burger__notice">
+                    keyboard_arrow_down
+                    </span><span class="material-icons-sharp burger__notice2">
+                        notifications_active
+                        </span></p>
+            </div>
+            <hr class="thin-line5">
+<!-- Кружочек -->
+ <div class="right-side">
+<hr class="vertical-line2">
+<div class="order-time-block">
+    <div class="time_block">
+        <p class="title base-weight">Order time</p>
+    </div>
+    <div class="view">
+        <a href="#!" class="result-report">View Report</a>
+    </div>
+    <p class="data-range">From 1-7 Feb, 2025</p>
+    <div class="chart-container">
+        <div class="chart-deg">
+            <svg width="250" height="250" viewBox="0 0 100 100">
+                <circle cx="50" cy="50" r="0" fill="none" stroke="#eee" stroke-width="10"/>
+                <circle class="circle-segment" cx="50" cy="50" r="35" fill="none" stroke="#5A67BA" stroke-width="15" stroke-dasharray="90, 130" 
+                transform="rotate(-90 50 50)"
+                />
+                <circle class="circle-segment" cx="50" cy="50" r="35" fill="none" stroke="#8593ED" stroke-width="15" stroke-dasharray="68, 150" 
+                transform="rotate(54 50 50)"
+                />
+                <circle class="circle-segment" cx="50" cy="50" r="35" fill="none" stroke="#C7CEFF" stroke-width="15" stroke-dasharray="76, 320" 
+                transform="rotate(146 50 50)"
+                />
+            </svg>
+        </div>
+        <div class="chart-info">
+            <div class="info-box">
+                <h3 class="info-title">Afternoon</h3>
+                <p class="item">1pm - 4pm</p>
+                <p class="orders">1.890 orders</p>
+            </div>
+        </div>
+    </div>
+    <div class="legend2">
+        <div><span class="blue-legend"></span>Afternoon</div>
+        <div><span class="blue2-legend"></span>Evening</div>
+        <div><span class="blue3-legend"></span>Morning</div>
+    </div>
+    <div class="legend3">
+        <div class="above-chartes-text">40%</div>
+        <div class="above-chartes-text">32%</div>
+        <div class="above-chartes-text">28%</div>
+    </div>
+</div>
+
+<hr class="thin-line6">
+
+<div class="order">
+<div class="order2">
+                <p class="base-weight">Order</p>
+                <div class="view"><a href="#!" class="result-report">View Report</a></div>
+                <h3>2.568</h3>
+                <p><span class="danger">2.1%</span> vs last week</p>
+                <p class="results-sale">Sales from 1-7 Feb, 2025</p>
+                <div class="chartes">
+                    <div class="bar" style="height: 120%;">
+                        <div class="current" style="height: 40%;"></div>
+                    </div>
+                    <div class="bar" style="height: 120%;">
+                        <div class="current" style="height: 20%;"></div>
+                    </div>
+                    <div class="bar" style="height: 120%;">
+                        <div class="current" style="height: 50%;"></div>
+                    </div>
+                    <div class="bar" style="height: 120%;">
+                        <div class="current" style="height: 30%;"></div>
+                    </div>
+                    <div class="bar" style="height: 120%;">
+                        <div class="current" style="height: 50%;"></div>
+                    </div>
+                    <div class="bar" style="height: 120%;">
+                        <div class="current" style="height: 35%;"></div>
+                    </div>
+                    <div class="bar" style="height: 120%;">
+                        <div class="current" style="height: 40%;"></div>
+                    </div>
+                </div>
+                <div class="above-chartes">
+                    <div class="above-chartes-text">01</div>
+                    <div class="above-chartes-text">02</div>
+                    <div class="above-chartes-text">03</div>
+                    <div class="above-chartes-text">04</div>
+                    <div class="above-chartes-text">05</div>
+                    <div class="above-chartes-text">06</div>
+                    <div class="above-chartes-text">07</div>
+                </div>
+                    <div class="legend">
+                        <div><span class="blue"></span>Last 7 days</div>
+                        <div><span class="gray"></span>Last Week</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+            </div>
+        </div>
+        <!-- Подключение внешнего JavaScript -->
+</body>
+
+</html>
